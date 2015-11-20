@@ -5,6 +5,8 @@ public class LoginDialog extends JDialog {
     private JPanel contentPane;
     private JButton buttonOK;
     private JButton buttonCancel;
+    private JTextField textField1;
+    private JPasswordField passwordField1;
 
     public LoginDialog() {
         setContentPane(contentPane);
